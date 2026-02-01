@@ -1,3 +1,5 @@
 def new_test():
+  print('test begin!')
   for j in range(0,4):
-    print('J', j)
+    print(j)
+  print('test finished!')
