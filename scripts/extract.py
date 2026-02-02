@@ -10,6 +10,9 @@ def bar():
 
 
 def extract(data: List) -> List:
+  """
+  Extract some info from a list of dict and returns a new list of dict
+  """
   new_data = list()
   keys = ['id', 'count', 'amount']
   
