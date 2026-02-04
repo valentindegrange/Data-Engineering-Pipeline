@@ -9,7 +9,7 @@ def bar():
 
 
 def extract(data: dict):
-  keys = ['id', 'count', 'amount']
+  keys = ['id', 'count', 'amount', 'utils']
   new_data = dict()
   for k in keys:
     new_data[k] = data[k]
